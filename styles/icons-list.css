@@ -1,0 +1,11 @@
+
+
+.icons-skills {
+    border: 1px solid red;
+
+
+    
+    & li i {
+        color: aliceblue;
+    }
+}

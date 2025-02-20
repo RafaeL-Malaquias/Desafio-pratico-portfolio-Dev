@@ -1,0 +1,43 @@
+/**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* fonts */
+    --font-asp: "Asap", sans-serif;
+    --font-inc: "Inconsolata", serif;
+    --font-mav: "Maven Pro", serif;
+
+    --title-md: 24px/120% bold var(--font-asp);
+    --title-sm: 16px/120% bold var(--font-asp);
+
+    --font-mav-md: 16px/140%  var(--font-mav);
+    --font-mav-sm: 14px/140%  var(--font-mav);
+
+
+    /* colors */
+
+
+    --red: #E3646E;
+    --purple:#BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+
+    /*Base colors*/
+
+    --gray-100: #0d0e11;
+    --gray-200: #16181d;
+    --gray-300: #292c34;
+    --gray-400: #878EA1;
+    --gray-500: #C0C4ce;
+    --gray-600: #E2E4E9;
+   
+    
+
+}
+
+
