@@ -1,0 +1,14 @@
+/**/
+
+.content-service{
+    background: var(--gray-100);
+
+    padding: 88px 120px;
+    text-align: center;
+
+
+    & .service{
+        display: flex;
+        justify-content: center;
+    }
+}
