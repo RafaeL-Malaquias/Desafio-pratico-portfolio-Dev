@@ -11,8 +11,11 @@
     --font-inc: "Inconsolata", serif;
     --font-mav: "Maven Pro", serif;
 
+    --title-lg: 56px/120% bold var(--font-asp);
     --title-md: 24px/120% bold var(--font-asp);
     --title-sm: 16px/120% bold var(--font-asp);
+
+    --text-sub: 20px/120%  var(--font-inc);	
 
     --font-mav-md: 16px/140%  var(--font-mav);
     --font-mav-sm: 14px/140%  var(--font-mav);
