@@ -53,7 +53,7 @@
        }
 
         & span {
-            font: var(--title-sm);
+            font: var(--text-sub);
             color: var(--gray-500);
             margin-bottom: 1rem;
 
@@ -63,25 +63,52 @@
         }
 
         & h1 {
-            font-size: 4rem;
+            font: var(--title-lg);
             color: var(--gray-600);
-            font-family: var();
-            font-weight: bold;
+           
             margin-bottom: 1rem;
         }
 
 
 
         & p {
-            font: var(--font-asp);
+            font: var(--text-sm);
             color: var(--gray-400);
         }
 
-    & .titles {
 
-    
 
-    }
+        
+        
+        /* list icons */
+
+        & .icons-skills {
+            display: flex;
+
+            gap: 1rem;
+            margin-top: 5rem ;
+
+            & li {
+                text-decoration: none;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                background-color: var(--gray-300);
+                padding: 8px 18px;
+                border-radius: 16px;
+                list-style: none;
+                
+                font: var(--text-md);
+                color: var(--gray-500);
+               
+            }
+        }
+
+        /*arrow down*/
+
 }
 
 
