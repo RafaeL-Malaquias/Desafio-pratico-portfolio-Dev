@@ -2,112 +2,124 @@
 
 
 .header {
-       width: 100%;
-       height: 100vh;
+    width: 100%;
+    height: 100vh;
 
-        background-image: url(../assets/Background_Intro.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    
-        text-align: center;
+     background-image: url(../assets/Background_Intro.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ 
+     text-align: center;
 
-        padding: 8rem;
+     padding: 8rem;
 
 
-        & .header-content {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+     & .header-content {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
 
-        }
-        & .profile-img {
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
+     & .profile-img {
+         display: flex;
+         justify-content: center;
+         align-items: flex-end;
 
-            margin-bottom: 4rem;
-            
-            position: relative;
+         margin-bottom: 4rem;
+         
+         position: relative;
 
-         img{
-            width: 9.6rem;
-            height: 9.6rem;
-            border: 3px solid var(--red);
-            border-radius: 50%;
+      img{
+         width: 9.6rem;
+         height: 9.6rem;
+         border: 3px solid var(--red);
+         border-radius: 50%;
 
-            object-fit: cover;
+         object-fit: cover;          
+      }
 
+      & i {
+         
+         position: absolute;
+         right:  -1rem;
+         font-size: 4rem;
+
+         color: var(--green);
+      }
+    }
+
+     & span {
+         font: var(--text-sub);
+         color: var(--gray-500);
+        
+
+         & .span-name {
+             color: var(--red);
+         }
+     }
+
+     & h1 {
+         font: var(--title-lg);
+         color: var(--gray-600);
+        
+         margin: 0.5rem 1rem;
+     }
+
+
+     & p {
+         font: var(--text-sm);
+         color: var(--gray-400);
+     }       
+     
+     /* list icons */
+
+     & .icons-skills {
+         display: flex;
+         gap: 1rem;
+         margin-top: 5rem ;
+
+         & li {
+             text-decoration: none;
+
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             gap: 5px;
+
+             background-color: var(--gray-300);
+             padding: 8px 18px;
+             border-radius: 16px;
+             list-style: none;
+             
+             font: var(--text-md);
+             color: var(--gray-500);
             
          }
+     }
 
-         & i {
-            
-            position: absolute;
-            right:  -1rem;
-            font-size: 4rem;
+      /**/
 
-            color: var(--green);
-         }
-       }
+     & .arrow-donw{
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 2.5rem;
+        color: var(--gray-400);
+        cursor: pointer;
 
-        & span {
-            font: var(--text-sub);
-            color: var(--gray-500);
-            margin-bottom: 1rem;
-
-            & span {
-                color: var(--red);
-            }
+        & a {
+            color: inherit;
+            text-decoration: none;
         }
 
-        & h1 {
-            font: var(--title-lg);
-            color: var(--gray-600);
-           
-            margin-bottom: 1rem;
+        &:hover{
+            color: var(--red);
         }
+    }
 
-
-
-        & p {
-            font: var(--text-sm);
-            color: var(--gray-400);
-        }
-
-
-
-        
-        
-        /* list icons */
-
-        & .icons-skills {
-            display: flex;
-
-            gap: 1rem;
-            margin-top: 5rem ;
-
-            & li {
-                text-decoration: none;
-
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 5px;
-
-                background-color: var(--gray-300);
-                padding: 8px 18px;
-                border-radius: 16px;
-                list-style: none;
-                
-                font: var(--text-md);
-                color: var(--gray-500);
-               
-            }
-        }
-
-        /*arrow down*/
+    }
 
 }
 
