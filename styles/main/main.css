@@ -49,6 +49,24 @@ main {
                     border-radius: 1rem;
                     object-fit: cover;
                 }
+
+                & span {
+                    font: var(--title-sm);
+                    color: var(--gray-600);
+                    font-weight: bold;
+                    margin-top: 1rem;
+                    display: block;
+
+                    margin-bottom: 8px;
+                }
+
+                & p {
+                    font: var(--text-sm);
+                    color: var(--gray-500);
+                    margin-bottom: 1rem;
+                }
+
+
             }
         }
 
@@ -60,6 +78,7 @@ img {
 @media (max-width: 1024px) { 
     .grid-content{
         display: grid;
+
         grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas médias */
     }
   }
