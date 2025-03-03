@@ -1,0 +1,52 @@
+
+
+
+/**/
+
+
+
+.content-service {
+    background: var(--gray-100);
+    padding: 88px 120px;
+    text-align: center;
+
+
+
+    & span {
+        font: var(--text-sub);
+        color: var(--red);
+        margin-bottom: 4rem;
+    }
+
+    & h2 {
+        font: var(--title-lg);
+        color: var(--gray-600);
+        margin-bottom: 4rem;
+    }
+
+    & .services {
+        text-align: initial;
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+
+
+        & .card-service {
+            display: flex;
+            flex-direction: column;
+            gap:  20px;
+            padding: 20px;
+            border: 1px solid var(--gray-300);
+            border-radius: 10px;
+        }
+
+        & h3 {
+            font: var(--title-md);
+            color: var(--gray-600);
+        }
+        & p {
+            font: var(--text-sm);
+            color: var(--gray-500);
+        }
+    }
+}

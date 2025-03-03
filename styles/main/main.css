@@ -82,7 +82,8 @@ img {
     .grid-content{
         display: grid;
 
-        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas médias */
+        grid-template-columns: repeat(2, 0fr); /* 2 colunas em telas médias */
+        justify-items: center;
     }
   }
   
