@@ -34,7 +34,7 @@
         & .card-service {
             display: flex;
             flex-direction: column;
-            gap:  20px;
+            
             padding: 20px;
             border: 1px solid var(--gray-300);
             border-radius: 10px;
@@ -43,6 +43,8 @@
         & h3 {
             font: var(--title-md);
             color: var(--gray-600);
+
+            margin: 24px 0 8px;
         }
         & p {
             font: var(--text-sm);

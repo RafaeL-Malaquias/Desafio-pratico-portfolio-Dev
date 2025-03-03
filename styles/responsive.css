@@ -12,12 +12,24 @@
         justify-items: center;
     }
 
+
     & .content-service {
         padding: 3rem  7rem;
 
         & h2 {
             font-size: 2rem;
             margin-top: 1rem;
+        }
+        .services {
+        }
+        .card-service {
+            text-align: center;
+            display: flex;
+
+            & h3 {
+                font-size: 1.2rem;
+                margin-top: 8px;
+            }
         }
     }
   }
