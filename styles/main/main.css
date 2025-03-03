@@ -72,24 +72,7 @@ main {
 
             }
         }
-
-
 img {
     max-width: 100%;
 }
 
-@media (max-width: 1024px) { 
-    .grid-content{
-        display: grid;
-
-        grid-template-columns: repeat(2, 0fr); /* 2 colunas em telas médias */
-        justify-items: center;
-    }
-  }
-  
-  @media (max-width: 768px) { 
-    main {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr); /* 1 coluna em telas pequenas */
-    }
-  }

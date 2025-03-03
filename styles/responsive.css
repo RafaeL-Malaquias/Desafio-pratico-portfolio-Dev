@@ -1,0 +1,30 @@
+/**/
+
+
+@media (max-width: 1024px) { 
+    main {
+        margin-bottom: 9rem;
+    }
+    .grid-content{
+        display: grid;
+
+        grid-template-columns: repeat(2, 0fr); /* 2 colunas em telas médias */
+        justify-items: center;
+    }
+
+    & .content-service {
+        padding: 3rem  7rem;
+
+        & h2 {
+            font-size: 2rem;
+            margin-top: 1rem;
+        }
+    }
+  }
+  
+  @media (max-width: 768px) { 
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 1 coluna em telas pequenas */
+    }
+  }
