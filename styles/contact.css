@@ -1,0 +1,79 @@
+/**/
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  padding: 128px 120px 200px 120px;
+
+  background-image: url(../assets/Background_Contacts.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+
+ & .content-contact {
+        display: flex;
+        /* margin: 0 auto; */
+        margin-bottom: 8rem;
+        text-align: center;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    & span {
+        font: var(--text-sub);
+        color: var(--purple);
+    }
+
+    & h2 {
+        font: var(--title-md);
+        color: var(--gray-600);
+        margin-top: 1rem;
+    }
+    & p {
+        font: var(--text-md);
+        color: var(--gray-500);
+        margin-top: 1rem;
+
+        margin-bottom: 3rem;
+    }
+
+    ul {
+
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+
+        & li {
+            background: var(--gray-300);
+            padding:  20px;
+            list-style: none;
+            border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            font: var(--text-md);
+            font-weight: 500;
+            color: var(--gray-500);
+            gap: 12px;
+            display: flex
+;
+            /* align-content: center; */
+            align-items: center;
+
+            position: relative;
+            .ph-arrow-up-right {
+                position: absolute;
+                font-weight: 600;
+                right: 0;
+            }
+        }
+    }
+
+  }
+}
