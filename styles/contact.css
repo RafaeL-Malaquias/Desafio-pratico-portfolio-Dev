@@ -75,15 +75,17 @@
                 right: 0;
             }
         }
-    }
-    
-    & li:hover {
-        outline: 1px solid var(--blue);
 
-        .ph, i {
-            color: var(--blue);
+        & li:hover {
+            outline: 1px solid var(--blue);
+        
+            .ph {
+                color: var(--blue);
+            }
+        
         }
-    }
 
+    }
   }
 }
+
