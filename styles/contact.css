@@ -53,6 +53,8 @@
             padding:  20px;
             list-style: none;
             border-radius: 10px;
+
+            cursor: pointer;
         }
 
         a {
@@ -72,6 +74,14 @@
                 font-weight: 600;
                 right: 0;
             }
+        }
+    }
+    
+    & li:hover {
+        outline: 1px solid var(--blue);
+
+        .ph, i {
+            color: var(--blue);
         }
     }
 
