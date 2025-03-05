@@ -70,7 +70,6 @@
      & p {
          font: var(--text-sm);
          color: var(--gray-400);
-         text-align: left;
      }       
      
      /* list icons */
